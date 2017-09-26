@@ -19,8 +19,6 @@ package org.wso2.security.exceptions;
  * XMLAttributeNotFoundException Class.
  */
 public class XMLAttributeNotFoundException extends Exception {
-
-
     public XMLAttributeNotFoundException(String message) {
         super(message);
     }

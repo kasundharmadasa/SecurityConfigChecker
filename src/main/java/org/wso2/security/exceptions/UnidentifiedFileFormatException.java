@@ -19,8 +19,6 @@ package org.wso2.security.exceptions;
  * UnidentifiedFileFormatException class.
  */
 public class UnidentifiedFileFormatException extends Exception {
-
-
     public UnidentifiedFileFormatException(String message) {
         super(message);
     }

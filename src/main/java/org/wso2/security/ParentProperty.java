@@ -19,8 +19,6 @@ package org.wso2.security;
  * This class encapsulates parent properties.
  */
 public class ParentProperty {
-
-
     private String refParentConfigFilePath = null;
     private String fileFormat = null;
 

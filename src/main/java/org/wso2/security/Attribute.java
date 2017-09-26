@@ -19,7 +19,6 @@ package org.wso2.security;
  * This Class encapsulates XML Attributes.
  */
 public class Attribute {
-
     private String attributeName;
     private String attributeValue;
 

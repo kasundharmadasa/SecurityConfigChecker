@@ -22,8 +22,6 @@ import java.util.List;
  *  This class encapsulates child properties.
  */
 public class ChildProperty {
-
-
     private String refChildConfigFilePath = null;
     private String productConfigFIlePath = null;
     private String fileFormat = null;

@@ -17,12 +17,9 @@ package org.wso2.security.common;
 
 import org.wso2.security.ConfigNode;
 
-
 /**
  * Interface for mapping the configurations into ConfigNode object.
  */
 public interface ConfigurationBuilder {
-
-
     ConfigNode parse(String configurationString);
 }

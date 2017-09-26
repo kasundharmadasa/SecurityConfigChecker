@@ -19,8 +19,6 @@ package org.wso2.security.exceptions;
  * InvalidXMLElementException class.
  */
 public class InvalidXMLElementException extends Exception {
-
-
     public InvalidXMLElementException(String message) {
         super(message);
     }

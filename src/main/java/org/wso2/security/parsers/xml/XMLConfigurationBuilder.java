@@ -21,13 +21,10 @@ import org.w3c.dom.NodeList;
 import org.wso2.security.ConfigNode;
 import org.wso2.security.common.ConfigurationBuilder;
 
-
 /**
- * This .
+ * This class is used to parse XML objects into ConfigNode objects.
  */
 public class XMLConfigurationBuilder implements ConfigurationBuilder {
-
-
     public ConfigNode parse(String configurationString) {
 
         XMLParser xmlParser = new XMLParser();

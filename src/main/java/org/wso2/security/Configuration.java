@@ -19,8 +19,6 @@ package org.wso2.security;
  * This class encapsulates configurations.
  */
 public class Configuration {
-
-
     private String configurationID;
     private String configuration;
 

@@ -15,13 +15,10 @@
  */
 package org.wso2.security.common;
 
-
 /**
  * A Class containing the common constants.
  */
 public final class Constants {
-
-
     public static final String FIND_COMMAND = "find";
     public static final String FIND_COMMAND_NAME_PARAM = "-name";
     public static final String PRESENT_DIRECTORY = ".";

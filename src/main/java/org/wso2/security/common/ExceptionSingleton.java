@@ -19,8 +19,6 @@ package org.wso2.security.common;
  * This class is used check for occurrences of an Exception in the program.
  */
 public class ExceptionSingleton {
-
-
     private static ExceptionSingleton instance;
     private  Boolean hasErrors = false;
 

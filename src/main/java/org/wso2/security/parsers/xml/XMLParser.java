@@ -29,11 +29,9 @@ import org.wso2.security.common.ExceptionSingleton;
 import org.wso2.security.exceptions.IllegalOperationException;
 import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
-
 import java.io.File;
 import java.io.IOException;
 import java.io.StringReader;
-
 import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Matcher;
@@ -43,16 +41,12 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
-
-
 import static org.wso2.security.common.Constants.NEWLINES_REGEX;
 
 /**
  * This class is used to parse XML configuration files.
  */
 public class XMLParser {
-
-
     private static final Logger log = LoggerFactory.getLogger(XMLParser.class);
 
     private static final int ENTITY_EXPANSION_LIMIT = 0;

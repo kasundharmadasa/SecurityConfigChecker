@@ -16,7 +16,6 @@
 package org.wso2.security;
 
 import org.wso2.security.exceptions.IllegalOperationException;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,8 +23,6 @@ import java.util.List;
  * This class encapsulates Configuration Node.
  */
 public class ConfigNode {
-
-
     private String name = null;
     private String value = null;
     private List<Attribute> attributes = new ArrayList<Attribute>();

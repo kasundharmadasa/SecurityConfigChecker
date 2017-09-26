@@ -3,21 +3,21 @@
 <!--Child properties file containing the reference product specific configuration file paths -->
 
 <child-properties>
-    <file type="web.xml">
+   <!-- <file type="web.xml">
         <format>xml</format>
         <reference-path>/Product/configurations/tomcat/web-xml-ref.xml</reference-path>
-        <product-path>/Product/package/web.xml</product-path>
+        <product-path></product-path>
         <exclude-configs>
-            <config>bridgeservlet</config>
+            <config></config>
         </exclude-configs>
     </file>
     <file type="jaggery.conf">
         <format>json</format>
-        <reference-path>/Product/configurations/tomcat/jaggery-conf-ref.xml</reference-path>
-        <product-path>/Product/package/tomcat/carbon/jaggery.conf</product-path>
+        <reference-path>/Product/configurations/jaggery/jaggery-conf-ref.xml</reference-path>
+        <product-path></product-path>
     </file>
 
     <exclude-paths>
-        <path>/Product/package/jaggery.conf</path>
-    </exclude-paths>
+        <path></path>
+    </exclude-paths>-->
 </child-properties>

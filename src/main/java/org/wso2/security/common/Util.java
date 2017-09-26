@@ -68,16 +68,10 @@ import static org.wso2.security.common.Constants.PRODUCT_PATH_TAG;
 import static org.wso2.security.common.Constants.REFERENCE_PATH_TAG;
 import static org.wso2.security.common.Constants.XML;
 
-
-
-
-
 /**
  * This class includes all the utility methods.
  */
 public class Util {
-
-
     private static final Logger log = LoggerFactory.getLogger(Util.class);
 
     public static String applicationPath;

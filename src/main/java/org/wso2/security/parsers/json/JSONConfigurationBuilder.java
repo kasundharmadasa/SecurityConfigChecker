@@ -29,8 +29,6 @@ import org.wso2.security.exceptions.IllegalOperationException;
  * This class is used to parse JSON objects into ConfigNode objects.
  */
 public class JSONConfigurationBuilder implements ConfigurationBuilder {
-
-
     private static final Logger log = LoggerFactory.getLogger(JSONConfigurationBuilder.class);
     private static final String  ROOT_NODE_NAME = "root";
 

@@ -17,14 +17,14 @@ while [ "$1" != "" ]; do
       echo "Usage: $(basename $0) --path <APPLICATION_HOME>"
       exit
       ;;
-    --)              # End of all options.
+    --)              # End of all options.Edited in test. 
       shift
       break
       ;;
     -?*)
       echo "WARN: Unknown option (ignored): $1"
       ;;
-    *)               # Default case: If no more options then break out of the loop.
+    *)               # Default case: If no more options then break out of the loop.Again edited in test.
       break
   esac
   shift

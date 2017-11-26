@@ -47,7 +47,7 @@ The exclude-paths tag can be used to define specific configurations files that a
         <path>/repository/deployment/server/webapps/oauth2/WEB-INF/web.xml</path>
     </exclude-paths>
 
-## Build from the source
+## Build from the source..
 
 -Get a clone or download source from github
 

@@ -17,7 +17,7 @@ while [ "$1" != "" ]; do
       echo "Usage: $(basename $0) --path <APPLICATION_HOME>"
       exit
       ;;
-    --)              # End of all options.
+    --)              # End of all options.Edited in test. 
       shift
       break
       ;;

@@ -24,7 +24,7 @@ while [ "$1" != "" ]; do
     -?*)
       echo "WARN: Unknown option (ignored): $1"
       ;;
-    *)               # Default case: If no more options then break out of the loop.
+    *)               # Default case: If no more options then break out of the loop.Again edited in test.
       break
   esac
   shift
